@@ -1,2 +1,6 @@
 # learning_cpp
-I am learning CPP step_by_step
+learning CPP step_by_step
+
+each exercise with its solution.
+
+Enjoy <3
