@@ -8,3 +8,5 @@ Then the program should output:
 
 Sum of even numbers is 12
 Product of odd numbers is 27
+
+P.S: compile with -std=c++11
