@@ -11,7 +11,7 @@ int main()
   std::cout << "\nI have information for the following planets:\n\n";
   std::cout << "   1. Venus   2. Mars    3. Jupiter\n";
   std::cout << "   4. Saturn  5. Uranus  6. Neptune\n\n";
-  std::cout << "\nPlease select the number planet your fighting on: ";
+  std::cout << "\nPlease select the number of the planet: ";
   std::cin >> p_number;
 
   switch(p_number)
@@ -30,6 +30,8 @@ int main()
       massonplanet = mass * 0.92;
     case 7:
       massonplanet = mass * 1.19;
+    std::cout << "\nYour weight on your selected planet is: " << massonplanet << "\n";
   }
-  std::cout << "\nYour weight on your selected planet is: " << massonplanet << "\n";
+  if(p_number > 7 || p_number == 0)
+	  std::cout << "Invalid Selection !\n";
 }
